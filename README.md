@@ -1,12 +1,12 @@
 # Age & Gender Prediction (Kaggle Competition)
 
-## 📌 Overview
+##  Overview
 This project focuses on predicting **age (regression)** and **gender (classification)** from facial images using deep learning.  
 It was developed as part of a Kaggle competition with a multi-task learning approach.
 
 ---
 
-## 🚀 Approach
+##  Approach
 - Built a **custom CNN from scratch** for joint age and gender prediction  
 - Improved performance using **transfer learning (ResNet50)**  
 - Handled **class imbalance** using weighted sampling and class-weighted loss  
@@ -14,7 +14,7 @@ It was developed as part of a Kaggle competition with a multi-task learning appr
 
 ---
 
-## 🧠 Model Details
+##  Model Details
 - **Framework:** PyTorch  
 - **Tasks:**
   - Age → Regression (L1 Loss)
@@ -24,7 +24,7 @@ It was developed as part of a Kaggle competition with a multi-task learning appr
 
 ---
 
-## 📊 Pipeline
+##  Pipeline
 1. Data loading & preprocessing  
 2. Train-validation split (stratified)  
 3. Model training (CNN + ResNet50)  
@@ -34,12 +34,12 @@ It was developed as part of a Kaggle competition with a multi-task learning appr
 
 ---
 
-## 📈 Results
+##  Results
 - Scratch CNN achieved a leaderboard score of **0.46**  
 - Performance improved using fine-tuned ResNet50  
 
 ---
 
-## 📁 Output
+##  Output
 - Final predictions saved as `submission.csv`  
 - Format:
